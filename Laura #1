@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Dominio</title>
+</head>
+<body>
+    <h1>Verificar Dominio</h1>
+    <form action="verificar_dominio.php" method="POST">
+        <label for="dominio">Ingrese el dominio (ejemplo: ejemplo.com):</label>
+        <input type="text" id="dominio" name="dominio" required>
+        <button type="submit">Verificar</button>
+    </form>
+</body>
+</html>
